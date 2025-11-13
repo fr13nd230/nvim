@@ -98,6 +98,23 @@ return {
         require('mason').setup({})
         require('mason-lspconfig').setup({
             ensure_installed = {
+                "circleci-yaml-language-server",
+                "cmake-language-server",
+                "docker-compose-language-service",
+                "docker-language-server",
+                "dockerfile-language-server",
+                "elixir-ls",
+                "golangci-lint-langserver",
+                "json-lsp",
+                "jsonld-lsp",
+                "markdown-oxide",
+                "nginx-language-server",
+                "postgres-language-server",
+                "postgrestools",
+                "prisma-language-server",
+                "rust_hdl",
+                "terraform-ls",
+                "yaml-language-server",
                 "lua_ls",
                 "rust_analyzer",
                 "gopls",
