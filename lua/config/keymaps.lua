@@ -15,15 +15,20 @@ vim.keymap.set({ "n", "v" }, "O", "O<esc>")
 --[[
 -- Save and quit => <leader>w
 -- Save file => <leader>s
+-- Exit => <leader>q
 -- Comment lines and blocks gcc,gco => <C-/>
 -- Format current code =ap => <leader>f
 -- Hide/Unhide tree file system <Cmd>Neotree toggle reveal<CR> => <leader>b
 -- Split editors vertically <Cmd>vsplit<Cr> => <leader>v
+-- Jump between split editors <C-direction> => <leader>direction
 --]]
-vim.keymap.set({ "n", "v" }, "<leader>w", "<Cmd>wq<CR>")
-vim.keymap.set({ "n", "v" }, "<leader>s", "<Cmd>w<CR>")
+vim.keymap.set({ "n", "v" }, "<leader>w", "<Cmd>wq<CR>", { silent = true })
+vim.keymap.set({ "n", "v" }, "<leader>s", "<Cmd>w<CR>", { silent = true })
+vim.keymap.set({ "n", "v" }, "<leader>q", "<Cmd>q<CR>", { silent = true })
 vim.keymap.set({ "n", "v" }, "<C-_>", function() require('Comment.api').toggle.linewise.current() end,
     { noremap = true, silent = true })
-vim.keymap.set({ "n", "v" }, "<leader>f", "=ap")
-vim.keymap.set({ "n", "v" }, "<leader>b", "<Cmd>Neotree toggle reveal<CR>")
-vim.keymap.set({ "n", "v" }, "<leader>v", "<Cmd>vsplit<CR>")
+vim.keymap.set({ "n", "v" }, "<leader>f", "=ap", { silent = true })
+vim.keymap.set({ "n", "v" }, "<leader>b", "<Cmd>Neotree toggle reveal<CR>", { silent = true })
+vim.keymap.set({ "n", "v" }, "<leader>v", "<Cmd>vsplit<CR>", { silent = true })
+vim.keymap.set({ "n", "v" }, "<leader><Left>", "<C-w>h", { silent = true })
+vim.keymap.set({ "n", "v" }, "<leader><Right>", "<C-w>l", { silent = true })
