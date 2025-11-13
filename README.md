@@ -15,7 +15,7 @@ This config follows the ancient philosophy of "copy stuff from the internet unti
 Massive shoutouts to the legends who unknowingly became my unpaid consultants:
 
 - **[ThePrimeagen](https://github.com/ThePrimeagen)** - For teaching me that hjkl is life and that the mouse is a lie
-- **[TJ DeVries](https://github.com/tjdevries)** - For making me realize my config could always be more complicated (in the best way)
+- **[TJ DeVries](https://github.com/tonybanters)** - For making me realize my config could always be more complicated (in the best way)
 
 If my config breaks, it's their fault. If it works, I'm a genius. 🧠
 
@@ -49,9 +49,9 @@ nvim
 
 ## 🚧 Current Status
 
-- [ ] Finish configuring LSP
+- [x] Finish configuring LSP
 - [ ] Learn what half these plugins do
-- [ ] Actually write some code
+- [x] Actually write some code
 - [x] Spend another weekend tweaking colors
 
 ## 📝 Notes
