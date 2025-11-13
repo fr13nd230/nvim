@@ -15,7 +15,7 @@ This config follows the ancient philosophy of "copy stuff from the internet unti
 Massive shoutouts to the legends who unknowingly became my unpaid consultants:
 
 - **[ThePrimeagen](https://github.com/ThePrimeagen)** - For teaching me that hjkl is life and that the mouse is a lie
-- **[TJ DeVries](https://github.com/tonybanters)** - For making me realize my config could always be more complicated (in the best way)
+- **[Tony Banters](https://github.com/tonybanters)** - For making me realize my config could always be more complicated (in the best way)
 
 If my config breaks, it's their fault. If it works, I'm a genius. 🧠
 
@@ -34,7 +34,7 @@ If my config breaks, it's their fault. If it works, I'm a genius. 🧠
 mv ~/.config/nvim ~/.config/nvim.bak
 
 # Clone this bad boy
-git clone <your-repo-url> ~/.config/nvim
+git clone https://github.com/fr13nd230/nvim ~/.config/nvim
 
 # Open nvim and pray
 nvim
