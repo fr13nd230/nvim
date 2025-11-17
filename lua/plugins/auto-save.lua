@@ -1,7 +1,9 @@
 return {
     {
         "brianhuster/autosave.nvim",
-        event = "InsertEnter",
-        opts = {}
+        event = { "InsertEnter", "InsertLeave", "TextChanged" },
+        opts = {
+            debounce_delay = 2000,
+        }
     },
 }

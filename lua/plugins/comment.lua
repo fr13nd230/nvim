@@ -3,8 +3,8 @@ return {
         'numToStr/Comment.nvim',
         opts = {
             toggler = {
-                line = '<C-/>',
-                block = '<C-/>',
+                line = '<C-_>',
+                block = '<C-_>',
             }
         }
     }
